@@ -14,7 +14,7 @@ boddy{
     justify-content: center;
 }
 .land video{
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -26,6 +26,7 @@ boddy{
     object-fit: cover;
 }
 .intro{
+    position:fixed;
     padding-left: 50px;
     color: white;
     height: 500px;
